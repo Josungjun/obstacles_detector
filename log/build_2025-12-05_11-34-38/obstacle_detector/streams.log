@@ -1,0 +1,185 @@
+[0.011s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[0.064s] [  1%] Built target obstacle_detector__rosidl_generator_type_description
+[0.074s] [  1%] Built target ament_cmake_python_symlink_obstacle_detector
+[0.087s] [  3%] Built target obstacle_detector__cpp
+[0.090s] [ 22%] Built target obstacle_detector__rosidl_generator_c
+[0.128s] [ 31%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[0.128s] [ 39%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[0.131s] [ 68%] Built target obstacle_detector__rosidl_typesupport_c
+[0.131s] [ 68%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[0.131s] [ 74%] Built target obstacle_detector__rosidl_typesupport_cpp
+[0.131s] [ 74%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[0.155s] [ 74%] Built target obstacle_detector
+[0.177s] [ 77%] Built target obstacle_extractor
+[0.178s] [ 79%] Built target obstacle_detector__py
+[0.205s] [ 86%] Built target obstacle_detector__rosidl_generator_py
+[0.208s] [ 89%] Built target obstacle_extractor_node
+[0.232s] [ 93%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[0.234s] [ 96%] Built target obstacle_detector_s__rosidl_typesupport_c
+[0.236s] [100%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[0.359s] running egg_info
+[0.384s] writing obstacle_detector.egg-info/PKG-INFO
+[0.385s] writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+[0.385s] writing top-level names to obstacle_detector.egg-info/top_level.txt
+[0.459s] reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[0.460s] writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[0.498s] [100%] Built target ament_cmake_python_build_obstacle_detector_egg
+[0.513s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[0.525s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[0.534s] -- Install configuration: ""
+[0.535s] -- Execute custom install script
+[0.535s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/rosidl_interfaces/obstacle_detector
+[0.535s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/CircleObstacle.json
+[0.535s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/SegmentObstacle.json
+[0.536s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/Obstacles.json
+[0.536s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/circle_obstacle.h
+[0.537s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__functions.h
+[0.537s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__struct.h
+[0.537s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__type_support.h
+[0.537s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__functions.h
+[0.537s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__struct.h
+[0.537s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__type_support.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__functions.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__struct.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__type_support.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/obstacles.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_generator_c__visibility_control.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/segment_obstacle.h
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/library_path.sh
+[0.538s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/library_path.dsv
+[0.539s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_fastrtps_c.h
+[0.540s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_fastrtps_c.h
+[0.540s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_fastrtps_c.h
+[0.540s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.540s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/circle_obstacle.hpp
+[0.540s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__builder.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__struct.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__traits.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__type_support.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__builder.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__struct.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__traits.hpp
+[0.541s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__type_support.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__builder.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__struct.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__traits.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__type_support.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/obstacles.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.542s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/segment_obstacle.hpp
+[0.543s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[0.543s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_fastrtps_cpp.hpp
+[0.543s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[0.543s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.544s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_introspection_c.h
+[0.544s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_introspection_c.h
+[0.544s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_introspection_c.h
+[0.544s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.544s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_introspection_cpp.hpp
+[0.545s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_introspection_cpp.hpp
+[0.545s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_introspection_cpp.hpp
+[0.545s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/pythonpath.sh
+[0.545s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/pythonpath.dsv
+[0.545s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/PKG-INFO
+[0.545s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/SOURCES.txt
+[0.546s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/dependency_links.txt
+[0.546s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/top_level.txt
+[0.546s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/__init__.py
+[0.546s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_c.c
+[0.546s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_introspection_c.c
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/__init__.py
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_circle_obstacle.py
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_circle_obstacle_s.c
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_obstacles.py
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_obstacles_s.c
+[0.547s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_segment_obstacle.py
+[0.548s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_segment_obstacle_s.c
+[0.548s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_c.so
+[0.548s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_fastrtps_c.so
+[0.548s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_introspection_c.so
+[0.548s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_fastrtps_c.so
+[0.549s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_introspection_c.so
+[0.549s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_c.so
+[0.549s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/CircleObstacle.idl
+[0.550s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/SegmentObstacle.idl
+[0.550s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/Obstacles.idl
+[0.550s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/CircleObstacle.msg
+[0.551s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/SegmentObstacle.msg
+[0.551s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/Obstacles.msg
+[0.551s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_extractor.so
+[0.551s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/obstacle_detector/obstacle_extractor_node
+[0.552s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp
+[0.552s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/circle.h
+[0.552s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/figure_fitting.h
+[0.553s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/kalman.h
+[0.553s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/math_utilities.h
+[0.553s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/point.h
+[0.553s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/point_set.h
+[0.553s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/segment.h
+[0.554s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/tracked_obstacle.h
+[0.554s] -- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/launch/obstacle_extractor.launch.py
+[0.554s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/config/params.yaml
+[0.563s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[0.573s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[0.582s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[0.591s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[0.601s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[0.611s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[0.622s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[0.631s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[0.642s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[0.651s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[0.661s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.dsv
+[0.671s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[0.680s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/rosidl_cmake-extras.cmake
+[0.690s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.699s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.709s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[0.719s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_targets-extras.cmake
+[0.729s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.739s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.749s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[0.759s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[0.769s] -- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.xml
+[0.778s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_generator_c.so
+[0.779s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_generator_c.so" to ""
+[0.779s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_fastrtps_c.so
+[0.779s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_fastrtps_c.so" to ""
+[0.779s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_fastrtps_cpp.so
+[0.780s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_fastrtps_cpp.so" to ""
+[0.780s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_introspection_c.so
+[0.780s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_introspection_c.so" to ""
+[0.780s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_c.so
+[0.781s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_c.so" to ""
+[0.781s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_introspection_cpp.so
+[0.781s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_introspection_cpp.so" to ""
+[0.781s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_cpp.so
+[0.782s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_cpp.so" to ""
+[0.834s] Listing '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector'...
+[0.834s] Compiling '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/__init__.py'...
+[0.834s] Listing '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg'...
+[0.835s] Compiling '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/__init__.py'...
+[0.835s] Compiling '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_circle_obstacle.py'...
+[0.835s] Compiling '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_obstacles.py'...
+[0.835s] Compiling '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_segment_obstacle.py'...
+[0.842s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_generator_py.so
+[0.843s] -- Set non-toolchain portion of runtime path of "/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_generator_py.so" to ""
+[0.843s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_cExport.cmake
+[0.843s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_cExport-noconfig.cmake
+[0.843s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cExport.cmake
+[0.843s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.843s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_cppExport.cmake
+[0.844s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.844s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.844s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cExport.cmake
+[0.844s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.844s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cExport.cmake
+[0.845s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cExport-noconfig.cmake
+[0.845s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cppExport.cmake
+[0.845s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.845s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cppExport.cmake
+[0.845s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cppExport-noconfig.cmake
+[0.845s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_pyExport.cmake
+[0.846s] -- Installing: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_pyExport-noconfig.cmake
+[0.849s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector

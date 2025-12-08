@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found Armadillo: /usr/include (found version "12.6.7") 
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_obstacle_detector
+running egg_info
+creating obstacle_detector.egg-info
+writing obstacle_detector.egg-info/PKG-INFO
+writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+writing top-level names to obstacle_detector.egg-info/top_level.txt
+writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[  1%] Built target obstacle_detector__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_obstacle_detector_egg
+[  5%] Built target obstacle_detector__cpp
+[  8%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/circle_obstacle__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/circle_obstacle__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/segment_obstacle__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/circle_obstacle__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/segment_obstacle__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/segment_obstacle__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/obstacles__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/obstacles__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/obstacles__type_support.c.o[0m
+[ 22%] [32m[1mLinking C shared library libobstacle_detector__rosidl_generator_c.so[0m
+[ 22%] Built target obstacle_detector__rosidl_generator_c
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 34%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_detector/msg/detail/circle_obstacle__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_detector/msg/detail/segment_obstacle__type_support.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_detector/msg/detail/obstacles__type_support.c.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_detector/msg/detail/dds_fastrtps/circle_obstacle__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_detector/msg/detail/dds_fastrtps/obstacles__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_detector/msg/detail/dds_fastrtps/segment_obstacle__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking C shared library libobstacle_detector__rosidl_typesupport_introspection_c.so[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_detector/msg/circle_obstacle__type_support.cpp.o[0m
+[ 46%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[ 48%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_detector/msg/circle_obstacle__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_detector/msg/segment_obstacle__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_detector/msg/segment_obstacle__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_detector/msg/detail/circle_obstacle__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_detector/msg/obstacles__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_c.so[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_detector/msg/detail/circle_obstacle__type_support_c.cpp.o[0m
+[ 58%] Built target obstacle_detector__rosidl_typesupport_c
+[ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_detector/msg/detail/segment_obstacle__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_detector/msg/obstacles__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_detector/msg/detail/obstacles__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_detector/msg/detail/segment_obstacle__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_detector/msg/detail/obstacles__type_support_c.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[ 70%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_cpp.so[0m
+[ 72%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] Built target obstacle_detector__rosidl_typesupport_cpp
+[ 74%] [32mBuilding CXX object CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o[0m
+[ 74%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[ 75%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[ 75%] Built target obstacle_detector
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target obstacle_detector__py
+[ 82%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_py.dir/rosidl_generator_py/obstacle_detector/msg/_segment_obstacle_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_py.dir/rosidl_generator_py/obstacle_detector/msg/_circle_obstacle_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_py.dir/rosidl_generator_py/obstacle_detector/msg/_obstacles_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library libobstacle_detector__rosidl_generator_py.so[0m
+[ 84%] Built target obstacle_detector__rosidl_generator_py
+[ 89%] [32mBuilding C object CMakeFiles/obstacle_detector_s__rosidl_typesupport_c.dir/rosidl_generator_py/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/obstacle_detector_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/obstacle_detector_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32m[1mLinking C shared module rosidl_generator_py/obstacle_detector/obstacle_detector_s__rosidl_typesupport_c.so[0m
+[ 93%] [32m[1mLinking C shared module rosidl_generator_py/obstacle_detector/obstacle_detector_s__rosidl_typesupport_introspection_c.so[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/obstacle_detector/obstacle_detector_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 94%] Built target obstacle_detector_s__rosidl_typesupport_c
+[ 94%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[ 94%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[ 96%] [32m[1mLinking CXX shared library libobstacle_extractor.so[0m
+[ 96%] Built target obstacle_extractor
+[ 98%] [32mBuilding CXX object CMakeFiles/obstacle_extractor_node.dir/src/nodes/obstacle_extractor_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable obstacle_extractor_node[0m

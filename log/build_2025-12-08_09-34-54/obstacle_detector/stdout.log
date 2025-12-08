@@ -1,0 +1,26 @@
+[  1%] Built target obstacle_detector__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_obstacle_detector
+[  3%] Built target obstacle_detector__cpp
+[ 20%] Built target obstacle_detector__rosidl_generator_c
+[ 29%] Built target obstacle_detector__rosidl_typesupport_c
+[ 37%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[ 45%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[ 53%] Built target obstacle_detector__rosidl_typesupport_cpp
+[ 61%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[ 69%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target obstacle_detector
+[ 70%] Built target obstacle_detector__py
+[ 74%] Built target obstacle_visualizer
+[ 80%] Built target obstacle_detector__rosidl_generator_py
+[ 82%] [32mBuilding CXX object CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o[0m
+[ 85%] Built target obstacle_visualizer_node
+[ 88%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[ 91%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[ 95%] Built target obstacle_detector_s__rosidl_typesupport_c
+running egg_info
+writing obstacle_detector.egg-info/PKG-INFO
+writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+writing top-level names to obstacle_detector.egg-info/top_level.txt
+reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_obstacle_detector_egg

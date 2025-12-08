@@ -1,0 +1,31 @@
+[0.025s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[0.200s] [  1%] Built target obstacle_detector__rosidl_generator_type_description
+[0.218s] [  1%] Built target ament_cmake_python_symlink_obstacle_detector
+[0.252s] [  3%] Built target obstacle_detector__cpp
+[0.268s] [ 20%] Built target obstacle_detector__rosidl_generator_c
+[0.348s] [ 29%] Built target obstacle_detector__rosidl_typesupport_c
+[0.349s] [ 37%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[0.358s] [ 45%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[0.359s] [ 53%] Built target obstacle_detector__rosidl_typesupport_cpp
+[0.362s] [ 61%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[0.367s] [ 69%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[0.414s] [ 69%] Built target obstacle_detector
+[0.466s] [ 70%] Built target obstacle_detector__py
+[0.521s] [ 74%] Built target obstacle_visualizer
+[0.521s] [ 80%] Built target obstacle_detector__rosidl_generator_py
+[0.535s] [ 82%] [32mBuilding CXX object CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o[0m
+[0.580s] [ 85%] Built target obstacle_visualizer_node
+[0.633s] [ 88%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[0.640s] [ 91%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[0.640s] [ 95%] Built target obstacle_detector_s__rosidl_typesupport_c
+[0.806s] running egg_info
+[0.870s] writing obstacle_detector.egg-info/PKG-INFO
+[0.871s] writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+[0.871s] writing top-level names to obstacle_detector.egg-info/top_level.txt
+[1.048s] reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[1.050s] writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[1.110s] [ 95%] Built target ament_cmake_python_build_obstacle_detector_egg
+[3.747s] gmake[2]: *** [CMakeFiles/obstacle_extractor.dir/build.make:76: CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o] Interrupt
+[3.747s] gmake[1]: *** [CMakeFiles/Makefile2:632: CMakeFiles/obstacle_extractor.dir/all] Interrupt
+[3.747s] gmake: *** [Makefile:146: all] Interrupt
+[3.766s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8

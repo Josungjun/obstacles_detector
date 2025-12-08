@@ -1,0 +1,119 @@
+[0.216s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'obstacle_detector', '--symlink-install']
+[0.216s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['obstacle_detector'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70b3b539cb00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70b3b5312870>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70b3b5312870>>, mixin_verb=('build',))
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.289s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hello-sungjun/ros2_ws/src/obstacle_detector'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'obstacle_detector'
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.386s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 417 installed packages in /opt/ros/jazzy
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.496s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector', 'merge_install': False, 'path': '/home/hello-sungjun/ros2_ws/src/obstacle_detector', 'symlink_install': True, 'test_result_base': None}
+[0.496s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hello-sungjun/ros2_ws/src/obstacle_detector' with build type 'ament_cmake'
+[0.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hello-sungjun/ros2_ws/src/obstacle_detector'
+[0.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[36.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[36.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[36.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detector)
+[36.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[36.976s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector' for CMake module files
+[36.978s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector' for CMake config files
+[36.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'cmake_prefix_path')
+[36.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.ps1'
+[36.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.dsv'
+[36.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.sh'
+[36.983s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib'
+[36.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'ld_library_path_lib')
+[36.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.ps1'
+[36.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.dsv'
+[36.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.sh'
+[36.986s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/bin'
+[36.986s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/pkgconfig/obstacle_detector.pc'
+[36.987s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages'
+[36.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'pythonpath')
+[36.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/pythonpath.ps1'
+[36.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/pythonpath.dsv'
+[36.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/pythonpath.sh'
+[36.990s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/bin'
+[36.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.ps1'
+[36.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.dsv'
+[36.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.sh'
+[36.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.bash'
+[36.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.zsh'
+[36.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/colcon-core/packages/obstacle_detector)
+[36.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detector)
+[36.998s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector' for CMake module files
+[36.999s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector' for CMake config files
+[37.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'cmake_prefix_path')
+[37.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.ps1'
+[37.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.dsv'
+[37.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.sh'
+[37.003s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib'
+[37.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'ld_library_path_lib')
+[37.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.ps1'
+[37.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.dsv'
+[37.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.sh'
+[37.006s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/bin'
+[37.006s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/pkgconfig/obstacle_detector.pc'
+[37.006s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages'
+[37.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'pythonpath')
+[37.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/pythonpath.ps1'
+[37.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/pythonpath.dsv'
+[37.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/hook/pythonpath.sh'
+[37.009s] Level 1:colcon.colcon_core.environment:checking '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/bin'
+[37.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.ps1'
+[37.011s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.dsv'
+[37.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.sh'
+[37.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.bash'
+[37.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.zsh'
+[37.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/colcon-core/packages/obstacle_detector)
+[37.015s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.016s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.026s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.049s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/local_setup.ps1'
+[37.052s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/_local_setup_util_ps1.py'
+[37.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/setup.ps1'
+[37.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/local_setup.sh'
+[37.059s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/_local_setup_util_sh.py'
+[37.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/setup.sh'
+[37.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/local_setup.bash'
+[37.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/setup.bash'
+[37.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/local_setup.zsh'
+[37.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/setup.zsh'

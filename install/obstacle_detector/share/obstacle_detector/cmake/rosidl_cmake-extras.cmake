@@ -1,0 +1,1 @@
+/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector/rosidl_cmake/rosidl_cmake-extras.cmake

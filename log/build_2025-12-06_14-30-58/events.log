@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000435] (obstacle_detector) JobQueued: {'identifier': 'obstacle_detector', 'dependencies': OrderedDict()}
+[0.000695] (obstacle_detector) JobStarted: {'identifier': 'obstacle_detector'}
+[0.008510] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'cmake'}
+[0.009464] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'build'}
+[0.009508] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector', '--', '-j8', '-l8'], 'cwd': '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hello-sungjun', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hello-sungjun', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.106.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2130', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2384', 'BUNDLED_DEBUGPY_PATH': '/home/hello-sungjun/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13217', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hello-sungjun', 'JOURNAL_STREAM': '9:14304', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hello-sungjun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/hello-sungjun/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hello-sungjun/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hello-sungjun/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/hello-sungjun-ThinkPad-T490s:@/tmp/.ICE-unix/2340,unix/hello-sungjun-ThinkPad-T490s:/tmp/.ICE-unix/2340', 'INVOCATION_ID': '15aff82e553b4a67abcffd12f307e440', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hello-sungjun/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b6ff36fbf15005f5.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/hello-sungjun/.config/Code/User/workspaceStorage/90d788efb857413debbc709713c707dc/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NSXDH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-28004242b2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.040846] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.068717] (obstacle_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099719] (-) TimerEvent: {}
+[0.153274] (obstacle_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.161684] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.192812] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.199866] (-) TimerEvent: {}
+[0.202798] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.215147] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.230818] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299988] (-) TimerEvent: {}
+[0.301991] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.303506] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.372034] (obstacle_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400093] (-) TimerEvent: {}
+[0.444980] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[0.475057] (obstacle_detector) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.489955] (obstacle_detector) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[0.500181] (-) TimerEvent: {}
+[0.508824] (obstacle_detector) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.525955] (obstacle_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.553593] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.557795] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.561516] (obstacle_detector) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.562967] (obstacle_detector) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.600313] (-) TimerEvent: {}
+[0.661323] (obstacle_detector) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[0.693474] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.700416] (-) TimerEvent: {}
+[0.702150] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.800517] (-) TimerEvent: {}
+[0.900821] (-) TimerEvent: {}
+[1.001087] (-) TimerEvent: {}
+[1.030176] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.101227] (-) TimerEvent: {}
+[1.201557] (-) TimerEvent: {}
+[1.301807] (-) TimerEvent: {}
+[1.332675] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401934] (-) TimerEvent: {}
+[1.452701] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.453987] (obstacle_detector) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.502042] (-) TimerEvent: {}
+[1.602292] (-) TimerEvent: {}
+[1.702599] (-) TimerEvent: {}
+[1.740279] (obstacle_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.788790] (obstacle_detector) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.789036] (obstacle_detector) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.789183] (obstacle_detector) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.789330] (obstacle_detector) StderrLine: {'line': b'\n'}
+[1.789460] (obstacle_detector) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.789593] (obstacle_detector) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.789723] (obstacle_detector) StderrLine: {'line': b'\n'}
+[1.789854] (obstacle_detector) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.789982] (obstacle_detector) StderrLine: {'line': b'  CMakeLists.txt:61 (rosidl_target_interfaces)\n'}
+[1.790111] (obstacle_detector) StderrLine: {'line': b'\n'}
+[1.790248] (obstacle_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[1.798424] (obstacle_detector) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.798583] (obstacle_detector) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.798741] (obstacle_detector) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.798870] (obstacle_detector) StderrLine: {'line': b'\n'}
+[1.799004] (obstacle_detector) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.799134] (obstacle_detector) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.799276] (obstacle_detector) StderrLine: {'line': b'\n'}
+[1.799409] (obstacle_detector) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.799530] (obstacle_detector) StderrLine: {'line': b'  CMakeLists.txt:95 (rosidl_target_interfaces)\n'}
+[1.799674] (obstacle_detector) StderrLine: {'line': b'\n'}
+[1.799807] (obstacle_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[1.802711] (-) TimerEvent: {}
+[1.812137] (obstacle_detector) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.893504] (obstacle_detector) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.902818] (-) TimerEvent: {}
+[1.917633] (obstacle_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector\n'}
+[1.963913] (obstacle_detector) StdoutLine: {'line': b'[  1%] Built target obstacle_detector__rosidl_generator_type_description\n'}
+[1.973937] (obstacle_detector) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_obstacle_detector\n'}
+[1.985417] (obstacle_detector) StdoutLine: {'line': b'[  3%] Built target obstacle_detector__cpp\n'}
+[1.992742] (obstacle_detector) StdoutLine: {'line': b'[ 20%] Built target obstacle_detector__rosidl_generator_c\n'}
+[2.005309] (-) TimerEvent: {}
+[2.035345] (obstacle_detector) StdoutLine: {'line': b'[ 29%] Built target obstacle_detector__rosidl_typesupport_cpp\n'}
+[2.039897] (obstacle_detector) StdoutLine: {'line': b'[ 37%] Built target obstacle_detector__rosidl_typesupport_c\n'}
+[2.040963] (obstacle_detector) StdoutLine: {'line': b'[ 45%] Built target obstacle_detector__rosidl_typesupport_introspection_c\n'}
+[2.042655] (obstacle_detector) StdoutLine: {'line': b'[ 61%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c\n'}
+[2.042903] (obstacle_detector) StdoutLine: {'line': b'[ 61%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp\n'}
+[2.044131] (obstacle_detector) StdoutLine: {'line': b'[ 69%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp\n'}
+[2.066545] (obstacle_detector) StdoutLine: {'line': b'[ 69%] Built target obstacle_detector\n'}
+[2.091770] (obstacle_detector) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_visualizer.dir/src/obstacle_visualizer.cpp.o\x1b[0m\n'}
+[2.100442] (obstacle_detector) StdoutLine: {'line': b'[ 72%] Built target obstacle_detector__py\n'}
+[2.105394] (-) TimerEvent: {}
+[2.122618] (obstacle_detector) StdoutLine: {'line': b'[ 75%] Built target obstacle_extractor\n'}
+[2.145952] (obstacle_detector) StdoutLine: {'line': b'[ 82%] Built target obstacle_detector__rosidl_generator_py\n'}
+[2.177922] (obstacle_detector) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_extractor_node.dir/src/nodes/obstacle_extractor_node.cpp.o\x1b[0m\n'}
+[2.183789] (obstacle_detector) StdoutLine: {'line': b'[ 87%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c\n'}
+[2.190450] (obstacle_detector) StdoutLine: {'line': b'[ 90%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c\n'}
+[2.194116] (obstacle_detector) StdoutLine: {'line': b'[ 93%] Built target obstacle_detector_s__rosidl_typesupport_c\n'}
+[2.205491] (-) TimerEvent: {}
+[2.305772] (-) TimerEvent: {}
+[2.311231] (obstacle_detector) StdoutLine: {'line': b'running egg_info\n'}
+[2.341596] (obstacle_detector) StdoutLine: {'line': b'writing obstacle_detector.egg-info/PKG-INFO\n'}
+[2.341898] (obstacle_detector) StdoutLine: {'line': b'writing dependency_links to obstacle_detector.egg-info/dependency_links.txt\n'}
+[2.342173] (obstacle_detector) StdoutLine: {'line': b'writing top-level names to obstacle_detector.egg-info/top_level.txt\n'}
+[2.407006] (-) TimerEvent: {}
+[2.445285] (obstacle_detector) StdoutLine: {'line': b"reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'\n"}
+[2.445749] (obstacle_detector) StdoutLine: {'line': b"writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'\n"}
+[2.501627] (obstacle_detector) StdoutLine: {'line': b'[ 93%] Built target ament_cmake_python_build_obstacle_detector_egg\n'}
+[2.507138] (-) TimerEvent: {}
+[2.607394] (-) TimerEvent: {}
+[2.707711] (-) TimerEvent: {}
+[2.808077] (-) TimerEvent: {}
+[2.908358] (-) TimerEvent: {}
+[3.008658] (-) TimerEvent: {}
+[3.109553] (-) TimerEvent: {}
+[3.210164] (-) TimerEvent: {}
+[3.310489] (-) TimerEvent: {}
+[3.410790] (-) TimerEvent: {}
+[3.511129] (-) TimerEvent: {}
+[3.611381] (-) TimerEvent: {}
+[3.711642] (-) TimerEvent: {}
+[3.811931] (-) TimerEvent: {}
+[3.912217] (-) TimerEvent: {}
+[4.012522] (-) TimerEvent: {}
+[4.112794] (-) TimerEvent: {}
+[4.213071] (-) TimerEvent: {}
+[4.313334] (-) TimerEvent: {}
+[4.413597] (-) TimerEvent: {}
+[4.513896] (-) TimerEvent: {}
+[4.614238] (-) TimerEvent: {}
+[4.714566] (-) TimerEvent: {}
+[4.814889] (-) TimerEvent: {}
+[4.915214] (-) TimerEvent: {}
+[5.015532] (-) TimerEvent: {}
+[5.115832] (-) TimerEvent: {}
+[5.216122] (-) TimerEvent: {}
+[5.316459] (-) TimerEvent: {}
+[5.335884] (obstacle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp:28\x1b[m\x1b[K,\n'}
+[5.336087] (obstacle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/nodes/obstacle_extractor_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.336182] (obstacle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kobstacle_detector::Point obstacle_detector::Segment::\x1b[01;32m\x1b[KtrueProjection\x1b[m\x1b[K(const obstacle_detector::Point&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.336303] (obstacle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:78:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.336387] (obstacle_detector) StderrLine: {'line': b'   78 |     Point \x1b[01;35m\x1b[Kc\x1b[m\x1b[K = p - last_point;\n'}
+[5.336468] (obstacle_detector) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.416590] (-) TimerEvent: {}
+[5.516899] (-) TimerEvent: {}
+[5.617255] (-) TimerEvent: {}
+[5.717587] (-) TimerEvent: {}
+[5.818016] (-) TimerEvent: {}
+[5.918431] (-) TimerEvent: {}
+[6.018825] (-) TimerEvent: {}
+[6.119144] (-) TimerEvent: {}
+[6.219464] (-) TimerEvent: {}
+[6.319730] (-) TimerEvent: {}
+[6.420050] (-) TimerEvent: {}
+[6.488150] (obstacle_detector) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable obstacle_extractor_node\x1b[0m\n'}
+[6.520198] (-) TimerEvent: {}
+[6.620487] (-) TimerEvent: {}
+[6.720897] (-) TimerEvent: {}
+[6.821335] (-) TimerEvent: {}
+[6.921734] (-) TimerEvent: {}
+[7.022221] (-) TimerEvent: {}
+[7.122648] (-) TimerEvent: {}
+[7.224859] (-) TimerEvent: {}
+[7.299296] (obstacle_detector) StdoutLine: {'line': b'[ 95%] Built target obstacle_extractor_node\n'}
+[7.324997] (-) TimerEvent: {}
+[7.425319] (-) TimerEvent: {}
+[7.525679] (-) TimerEvent: {}
+[7.626010] (-) TimerEvent: {}
+[7.726274] (-) TimerEvent: {}
+[7.826502] (-) TimerEvent: {}
+[7.926761] (-) TimerEvent: {}
+[8.027030] (-) TimerEvent: {}
+[8.127277] (-) TimerEvent: {}
+[8.227527] (-) TimerEvent: {}
+[8.327799] (-) TimerEvent: {}
+[8.428122] (-) TimerEvent: {}
+[8.528392] (-) TimerEvent: {}
+[8.628658] (-) TimerEvent: {}
+[8.728947] (-) TimerEvent: {}
+[8.829275] (-) TimerEvent: {}
+[8.929618] (-) TimerEvent: {}
+[9.029877] (-) TimerEvent: {}
+[9.130125] (-) TimerEvent: {}
+[9.230402] (-) TimerEvent: {}
+[9.330660] (-) TimerEvent: {}
+[9.430927] (-) TimerEvent: {}
+[9.531183] (-) TimerEvent: {}
+[9.631414] (-) TimerEvent: {}
+[9.731711] (-) TimerEvent: {}
+[9.831962] (-) TimerEvent: {}
+[9.932234] (-) TimerEvent: {}
+[10.032534] (-) TimerEvent: {}
+[10.132845] (-) TimerEvent: {}
+[10.233142] (-) TimerEvent: {}
+[10.333451] (-) TimerEvent: {}
+[10.433805] (-) TimerEvent: {}
+[10.534110] (-) TimerEvent: {}
+[10.634442] (-) TimerEvent: {}
+[10.734745] (-) TimerEvent: {}
+[10.835033] (-) TimerEvent: {}
+[10.935322] (-) TimerEvent: {}
+[11.035571] (-) TimerEvent: {}
+[11.135813] (-) TimerEvent: {}
+[11.236042] (-) TimerEvent: {}
+[11.336290] (-) TimerEvent: {}
+[11.436548] (-) TimerEvent: {}
+[11.536812] (-) TimerEvent: {}
+[11.637095] (-) TimerEvent: {}
+[11.737363] (-) TimerEvent: {}
+[11.837706] (-) TimerEvent: {}
+[11.937995] (-) TimerEvent: {}
+[12.038274] (-) TimerEvent: {}
+[12.138560] (-) TimerEvent: {}
+[12.238883] (-) TimerEvent: {}
+[12.339165] (-) TimerEvent: {}
+[12.384049] (obstacle_detector) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_visualizer.so\x1b[0m\n'}
+[12.439278] (-) TimerEvent: {}
+[12.539553] (-) TimerEvent: {}
+[12.639866] (-) TimerEvent: {}
+[12.740176] (-) TimerEvent: {}
+[12.840462] (-) TimerEvent: {}
+[12.870494] (obstacle_detector) StdoutLine: {'line': b'[ 96%] Built target obstacle_visualizer\n'}
+[12.893656] (obstacle_detector) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_visualizer_node.dir/src/nodes/obstacle_visualizer_node.cpp.o\x1b[0m\n'}
+[12.940562] (-) TimerEvent: {}
+[13.040847] (-) TimerEvent: {}
+[13.141091] (-) TimerEvent: {}
+[13.241285] (-) TimerEvent: {}
+[13.341505] (-) TimerEvent: {}
+[13.441762] (-) TimerEvent: {}
+[13.542020] (-) TimerEvent: {}
+[13.642279] (-) TimerEvent: {}
+[13.742502] (-) TimerEvent: {}
+[13.842761] (-) TimerEvent: {}
+[13.943056] (-) TimerEvent: {}
+[14.043279] (-) TimerEvent: {}
+[14.143543] (-) TimerEvent: {}
+[14.243801] (-) TimerEvent: {}
+[14.344062] (-) TimerEvent: {}
+[14.444283] (-) TimerEvent: {}
+[14.544542] (-) TimerEvent: {}
+[14.646683] (-) TimerEvent: {}
+[14.747249] (-) TimerEvent: {}
+[14.847601] (-) TimerEvent: {}
+[14.947968] (-) TimerEvent: {}
+[15.048349] (-) TimerEvent: {}
+[15.148676] (-) TimerEvent: {}
+[15.248968] (-) TimerEvent: {}
+[15.349277] (-) TimerEvent: {}
+[15.449539] (-) TimerEvent: {}
+[15.549811] (-) TimerEvent: {}
+[15.650145] (-) TimerEvent: {}
+[15.750443] (-) TimerEvent: {}
+[15.850736] (-) TimerEvent: {}
+[15.951008] (-) TimerEvent: {}
+[16.051302] (-) TimerEvent: {}
+[16.151626] (-) TimerEvent: {}
+[16.251991] (-) TimerEvent: {}
+[16.352296] (-) TimerEvent: {}
+[16.423492] (obstacle_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable obstacle_visualizer_node\x1b[0m\n'}
+[16.452419] (-) TimerEvent: {}
+[16.552784] (-) TimerEvent: {}
+[16.653128] (-) TimerEvent: {}
+[16.753440] (-) TimerEvent: {}
+[16.772109] (obstacle_detector) StdoutLine: {'line': b'[100%] Built target obstacle_visualizer_node\n'}
+[16.789506] (obstacle_detector) CommandEnded: {'returncode': 0}
+[16.790336] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'install'}
+[16.802766] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector'], 'cwd': '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hello-sungjun', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hello-sungjun', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.106.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2130', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2384', 'BUNDLED_DEBUGPY_PATH': '/home/hello-sungjun/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13217', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hello-sungjun', 'JOURNAL_STREAM': '9:14304', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hello-sungjun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/hello-sungjun/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hello-sungjun/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hello-sungjun/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/hello-sungjun-ThinkPad-T490s:@/tmp/.ICE-unix/2340,unix/hello-sungjun-ThinkPad-T490s:/tmp/.ICE-unix/2340', 'INVOCATION_ID': '15aff82e553b4a67abcffd12f307e440', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hello-sungjun/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b6ff36fbf15005f5.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/hello-sungjun/.config/Code/User/workspaceStorage/90d788efb857413debbc709713c707dc/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NSXDH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-28004242b2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.813910] (obstacle_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.814331] (obstacle_detector) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.814750] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/rosidl_interfaces/obstacle_detector\n'}
+[16.815154] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/CircleObstacle.json\n'}
+[16.815435] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/SegmentObstacle.json\n'}
+[16.815649] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/Obstacles.json\n'}
+[16.816289] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/circle_obstacle.h\n'}
+[16.816514] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__functions.h\n'}
+[16.816655] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__struct.h\n'}
+[16.816801] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__type_support.h\n'}
+[16.816933] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__functions.h\n'}
+[16.817070] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__struct.h\n'}
+[16.817199] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__type_support.h\n'}
+[16.817327] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__functions.h\n'}
+[16.817459] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__struct.h\n'}
+[16.817592] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__type_support.h\n'}
+[16.817759] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/obstacles.h\n'}
+[16.817879] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.818024] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/segment_obstacle.h\n'}
+[16.818225] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/library_path.sh\n'}
+[16.818470] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/library_path.dsv\n'}
+[16.819082] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[16.819262] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_fastrtps_c.h\n'}
+[16.819407] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[16.819528] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.820077] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/circle_obstacle.hpp\n'}
+[16.820220] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__builder.hpp\n'}
+[16.820375] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__struct.hpp\n'}
+[16.820500] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__traits.hpp\n'}
+[16.820604] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__type_support.hpp\n'}
+[16.820718] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__builder.hpp\n'}
+[16.820836] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__struct.hpp\n'}
+[16.820956] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__traits.hpp\n'}
+[16.821074] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__type_support.hpp\n'}
+[16.821201] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__builder.hpp\n'}
+[16.821324] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__struct.hpp\n'}
+[16.821442] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__traits.hpp\n'}
+[16.821561] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__type_support.hpp\n'}
+[16.821678] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/obstacles.hpp\n'}
+[16.821793] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.821910] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/segment_obstacle.hpp\n'}
+[16.822446] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.822590] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.822713] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.822828] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.823195] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_introspection_c.h\n'}
+[16.823395] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_introspection_c.h\n'}
+[16.823587] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_introspection_c.h\n'}
+[16.823707] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.823965] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/circle_obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.824114] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/obstacles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.824244] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_detector/msg/detail/segment_obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.824343] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/pythonpath.sh\n'}
+[16.824522] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/pythonpath.dsv\n'}
+[16.824835] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[16.824955] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[16.825079] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[16.825181] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[16.825767] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/__init__.py\n'}
+[16.825885] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_c.c\n'}
+[16.825979] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.826077] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.826195] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/__init__.py\n'}
+[16.826321] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_circle_obstacle.py\n'}
+[16.826437] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_circle_obstacle_s.c\n'}
+[16.826575] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_obstacles.py\n'}
+[16.826676] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_obstacles_s.c\n'}
+[16.826781] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_segment_obstacle.py\n'}
+[16.826883] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg/_segment_obstacle_s.c\n'}
+[16.826993] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_c.so\n'}
+[16.827102] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_fastrtps_c.so\n'}
+[16.827217] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_introspection_c.so\n'}
+[16.827485] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_fastrtps_c.so\n'}
+[16.827735] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_introspection_c.so\n'}
+[16.828029] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/obstacle_detector_s__rosidl_typesupport_c.so\n'}
+[16.828163] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/CircleObstacle.idl\n'}
+[16.828405] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/SegmentObstacle.idl\n'}
+[16.828574] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/Obstacles.idl\n'}
+[16.828720] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/CircleObstacle.msg\n'}
+[16.828833] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/SegmentObstacle.msg\n'}
+[16.828980] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/msg/Obstacles.msg\n'}
+[16.829258] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_extractor.so\n'}
+[16.829385] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/obstacle_detector/obstacle_extractor_node\n'}
+[16.829519] (obstacle_detector) StdoutLine: {'line': b'-- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_visualizer.so\n'}
+[16.838902] (obstacle_detector) StdoutLine: {'line': b'-- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/obstacle_detector/obstacle_visualizer_node\n'}
+[16.848167] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp\n'}
+[16.848463] (obstacle_detector) StdoutLine: {'line': b'-- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/obstacle_visualizer.hpp\n'}
+[16.853535] (-) TimerEvent: {}
+[16.857329] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/circle.h\n'}
+[16.857513] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/figure_fitting.h\n'}
+[16.857630] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/kalman.h\n'}
+[16.857740] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/math_utilities.h\n'}
+[16.857849] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/point.h\n'}
+[16.857946] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/point_set.h\n'}
+[16.858043] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/segment.h\n'}
+[16.858115] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/include/obstacle_detector/utilities/tracked_obstacle.h\n'}
+[16.858308] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/launch/obstacle_extractor.launch.py\n'}
+[16.858511] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/config/params.yaml\n'}
+[16.858698] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector\n'}
+[16.858900] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector\n'}
+[16.859032] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh\n'}
+[16.859271] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv\n'}
+[16.859534] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.sh\n'}
+[16.859721] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.dsv\n'}
+[16.859878] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.bash\n'}
+[16.859984] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.sh\n'}
+[16.860117] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.zsh\n'}
+[16.860285] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.dsv\n'}
+[16.860391] (obstacle_detector) StdoutLine: {'line': b'-- Symlinking: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.dsv\n'}
+[16.870452] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector\n'}
+[16.870652] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/rosidl_cmake-extras.cmake\n'}
+[16.870762] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.870873] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.871074] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.871276] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.871491] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.871623] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.871788] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake\n'}
+[16.871917] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake\n'}
+[16.872022] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.xml\n'}
+[16.872162] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_generator_c.so\n'}
+[16.872421] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_fastrtps_c.so\n'}
+[16.872681] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.872898] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_introspection_c.so\n'}
+[16.873098] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_c.so\n'}
+[16.873564] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_introspection_cpp.so\n'}
+[16.873777] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_typesupport_cpp.so\n'}
+[16.909490] (obstacle_detector) StdoutLine: {'line': b"Listing '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector'...\n"}
+[16.909646] (obstacle_detector) StdoutLine: {'line': b"Compiling '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/__init__.py'...\n"}
+[16.909762] (obstacle_detector) StdoutLine: {'line': b"Listing '/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/python3.12/site-packages/obstacle_detector/msg'...\n"}
+[16.916268] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector__rosidl_generator_py.so\n'}
+[16.916606] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_cExport.cmake\n'}
+[16.916728] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.916854] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.916981] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.917061] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_cppExport.cmake\n'}
+[16.917136] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.917291] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.917388] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.917486] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.917576] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cExport.cmake\n'}
+[16.917653] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.917729] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.917802] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.917879] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cppExport.cmake\n'}
+[16.917948] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detector__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.918019] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_pyExport.cmake\n'}
+[16.918094] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/export_obstacle_detector__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.919836] (obstacle_detector) CommandEnded: {'returncode': 0}
+[16.941548] (obstacle_detector) JobEnded: {'identifier': 'obstacle_detector', 'rc': 0}
+[16.942217] (-) EventReactorShutdown: {}

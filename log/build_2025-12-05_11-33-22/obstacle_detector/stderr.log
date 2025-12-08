@@ -1,0 +1,14 @@
+In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp:26[m[K,
+                 from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/obstacle_extractor.cpp:5[m[K:
+[01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:[m[K In member function ‘[01m[Kobstacle_detector::Point obstacle_detector::Segment::[01;32m[KtrueProjection[m[K(const obstacle_detector::Point&) const[m[K’:
+[01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:78:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   78 |     Point [01;35m[Kc[m[K = p - last_point;
+      |           [01;35m[K^[m[K
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/hello-sungjun/ros2_ws/src/obstacle_detector/config'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:395 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

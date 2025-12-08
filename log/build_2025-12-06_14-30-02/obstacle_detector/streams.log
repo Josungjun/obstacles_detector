@@ -1,0 +1,75 @@
+[0.010s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[0.040s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.160s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.198s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.210s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.245s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.316s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.473s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.504s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.522s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.542s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.561s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.589s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.592s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.596s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.597s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.706s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.748s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.757s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.078s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.499s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.785s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.865s] -- Configuring done (1.8s)
+[1.959s] -- Generating done (0.1s)
+[1.982s] -- Build files have been written to: /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[2.028s] [  1%] Built target obstacle_detector__rosidl_generator_type_description
+[2.029s] [  3%] [32mBuilding CXX object CMakeFiles/obstacle_visualizer.dir/src/obstacle_visualizer.cpp.o[0m
+[2.040s] [  3%] Built target ament_cmake_python_symlink_obstacle_detector
+[2.056s] [  4%] Built target obstacle_detector__cpp
+[2.060s] [ 22%] Built target obstacle_detector__rosidl_generator_c
+[2.108s] [ 30%] Built target obstacle_detector__rosidl_typesupport_c
+[2.108s] [ 38%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[2.113s] [ 46%] Built target obstacle_detector__rosidl_typesupport_cpp
+[2.113s] [ 54%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[2.115s] [ 62%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[2.121s] [ 70%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[2.147s] [ 70%] Built target obstacle_detector
+[2.178s] [ 72%] Built target obstacle_detector__py
+[2.180s] [ 74%] [32mBuilding CXX object CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o[0m
+[2.224s] [ 80%] Built target obstacle_detector__rosidl_generator_py
+[2.265s] [ 87%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[2.265s] [ 87%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[2.271s] [ 90%] Built target obstacle_detector_s__rosidl_typesupport_c
+[2.390s] running egg_info
+[2.403s] In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/obstacle_visualizer.cpp:1[m[K:
+[2.403s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_visualizer.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kobstacle_detector/msg/obstacles.hpp: No such file or directory
+[2.403s]     6 | #include [01;31m[K"obstacle_detector/msg/obstacles.hpp"[m[K
+[2.403s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.403s] compilation terminated.
+[2.408s] gmake[2]: *** [CMakeFiles/obstacle_visualizer.dir/build.make:76: CMakeFiles/obstacle_visualizer.dir/src/obstacle_visualizer.cpp.o] Error 1
+[2.408s] gmake[1]: *** [CMakeFiles/Makefile2:686: CMakeFiles/obstacle_visualizer.dir/all] Error 2
+[2.408s] gmake[1]: *** Waiting for unfinished jobs....
+[2.421s] writing obstacle_detector.egg-info/PKG-INFO
+[2.421s] writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+[2.422s] writing top-level names to obstacle_detector.egg-info/top_level.txt
+[2.509s] reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[2.509s] writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[2.550s] [ 90%] Built target ament_cmake_python_build_obstacle_detector_egg
+[5.528s] In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp:28[m[K,
+[5.528s]                  from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/obstacle_extractor.cpp:5[m[K:
+[5.528s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:[m[K In member function ‘[01m[Kobstacle_detector::Point obstacle_detector::Segment::[01;32m[KtrueProjection[m[K(const obstacle_detector::Point&) const[m[K’:
+[5.528s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:78:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.528s]    78 |     Point [01;35m[Kc[m[K = p - last_point;
+[5.528s]       |           [01;35m[K^[m[K
+[22.518s] [ 91%] [32m[1mLinking CXX shared library libobstacle_extractor.so[0m
+[23.587s] [ 91%] Built target obstacle_extractor
+[23.589s] gmake: *** [Makefile:146: all] Error 2
+[23.591s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8

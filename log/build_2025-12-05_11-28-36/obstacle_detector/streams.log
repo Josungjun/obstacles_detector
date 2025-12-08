@@ -1,0 +1,155 @@
+[0.009s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hello-sungjun/ros2_ws/src/obstacle_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.128s] -- The CXX compiler identification is GNU 13.3.0
+[0.144s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.361s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.541s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.629s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.688s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.743s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.762s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.008s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.034s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.063s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.159s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.206s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.225s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.247s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.267s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.299s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.306s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.327s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.329s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.329s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.448s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.469s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.473s] -- Found Armadillo: /usr/include (found version "12.6.7") 
+[2.141s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.380s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.518s] -- Found PythonExtra: /usr/bin/python3  
+[3.987s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.077s] -- Configuring done (4.1s)
+[4.143s] -- Generating done (0.0s)
+[4.162s] -- Build files have been written to: /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[4.178s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hello-sungjun/ros2_ws/src/obstacle_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hello-sungjun/ros2_ws/src/obstacle_detector/install/obstacle_detector
+[4.180s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[4.238s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.249s] [  1%] Built target ament_cmake_python_symlink_obstacle_detector
+[4.507s] running egg_info
+[4.508s] creating obstacle_detector.egg-info
+[4.535s] writing obstacle_detector.egg-info/PKG-INFO
+[4.535s] writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+[4.535s] writing top-level names to obstacle_detector.egg-info/top_level.txt
+[4.536s] writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[4.575s] [  1%] Built target obstacle_detector__rosidl_generator_type_description
+[4.616s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.636s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.655s] reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[4.655s] writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[4.706s] [  5%] Built target ament_cmake_python_build_obstacle_detector_egg
+[5.129s] [  5%] Built target obstacle_detector__cpp
+[5.216s] [  8%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/circle_obstacle__description.c.o[0m
+[5.216s] [  8%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/circle_obstacle__functions.c.o[0m
+[5.217s] [ 10%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/segment_obstacle__description.c.o[0m
+[5.218s] [ 13%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/circle_obstacle__type_support.c.o[0m
+[5.218s] [ 13%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/segment_obstacle__type_support.c.o[0m
+[5.218s] [ 15%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/segment_obstacle__functions.c.o[0m
+[5.219s] [ 17%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/obstacles__description.c.o[0m
+[5.220s] [ 18%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/obstacles__functions.c.o[0m
+[5.277s] [ 20%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_c.dir/rosidl_generator_c/obstacle_detector/msg/detail/obstacles__type_support.c.o[0m
+[5.313s] [ 22%] [32m[1mLinking C shared library libobstacle_detector__rosidl_generator_c.so[0m
+[5.354s] [ 22%] Built target obstacle_detector__rosidl_generator_c
+[5.367s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.367s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.370s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.370s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.371s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.371s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.960s] [ 34%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_detector/msg/detail/circle_obstacle__type_support.c.o[0m
+[5.965s] [ 36%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_detector/msg/detail/segment_obstacle__type_support.c.o[0m
+[5.975s] [ 37%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_detector/msg/detail/obstacles__type_support.c.o[0m
+[6.055s] [ 39%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_detector/msg/detail/dds_fastrtps/circle_obstacle__type_support.cpp.o[0m
+[6.057s] [ 41%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_detector/msg/detail/dds_fastrtps/obstacles__type_support.cpp.o[0m
+[6.059s] [ 43%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_detector/msg/detail/dds_fastrtps/segment_obstacle__type_support.cpp.o[0m
+[6.065s] [ 44%] [32m[1mLinking C shared library libobstacle_detector__rosidl_typesupport_introspection_c.so[0m
+[6.072s] [ 46%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_detector/msg/circle_obstacle__type_support.cpp.o[0m
+[6.132s] [ 46%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[6.146s] [ 48%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_detector/msg/circle_obstacle__type_support.cpp.o[0m
+[6.161s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_detector/msg/segment_obstacle__type_support.cpp.o[0m
+[6.167s] [ 51%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_detector/msg/segment_obstacle__type_support.cpp.o[0m
+[6.236s] [ 53%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_detector/msg/detail/circle_obstacle__type_support.cpp.o[0m
+[6.255s] [ 55%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_detector/msg/obstacles__type_support.cpp.o[0m
+[6.337s] [ 56%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_c.so[0m
+[6.365s] [ 58%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_detector/msg/detail/circle_obstacle__type_support_c.cpp.o[0m
+[6.421s] [ 58%] Built target obstacle_detector__rosidl_typesupport_c
+[6.439s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_detector/msg/detail/segment_obstacle__type_support.cpp.o[0m
+[6.918s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_detector/msg/obstacles__type_support.cpp.o[0m
+[6.959s] [ 63%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_detector/msg/detail/obstacles__type_support.cpp.o[0m
+[6.979s] [ 65%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_detector/msg/detail/segment_obstacle__type_support_c.cpp.o[0m
+[7.133s] [ 67%] [32mBuilding CXX object CMakeFiles/obstacle_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_detector/msg/detail/obstacles__type_support_c.cpp.o[0m
+[7.236s] [ 68%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.418s] [ 68%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[7.544s] [ 70%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_cpp.so[0m
+[7.575s] [ 72%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_introspection_cpp.so[0m
+[7.614s] [ 72%] Built target obstacle_detector__rosidl_typesupport_cpp
+[7.650s] [ 74%] [32mBuilding CXX object CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o[0m
+[7.693s] [ 74%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[7.886s] [ 75%] [32m[1mLinking CXX shared library libobstacle_detector__rosidl_typesupport_fastrtps_c.so[0m
+[7.945s] [ 75%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[7.968s] [ 75%] Built target obstacle_detector
+[7.991s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.672s] [ 77%] Built target obstacle_detector__py
+[8.696s] [ 82%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_py.dir/rosidl_generator_py/obstacle_detector/msg/_segment_obstacle_s.c.o[0m
+[8.696s] [ 82%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_py.dir/rosidl_generator_py/obstacle_detector/msg/_circle_obstacle_s.c.o[0m
+[8.697s] [ 82%] [32mBuilding C object CMakeFiles/obstacle_detector__rosidl_generator_py.dir/rosidl_generator_py/obstacle_detector/msg/_obstacles_s.c.o[0m
+[8.862s] [ 84%] [32m[1mLinking C shared library libobstacle_detector__rosidl_generator_py.so[0m
+[8.915s] [ 84%] Built target obstacle_detector__rosidl_generator_py
+[8.939s] [ 89%] [32mBuilding C object CMakeFiles/obstacle_detector_s__rosidl_typesupport_c.dir/rosidl_generator_py/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_c.c.o[0m
+[8.939s] [ 89%] [32mBuilding C object CMakeFiles/obstacle_detector_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.939s] [ 89%] [32mBuilding C object CMakeFiles/obstacle_detector_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/obstacle_detector/_obstacle_detector_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.069s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/obstacle_detector/obstacle_detector_s__rosidl_typesupport_c.so[0m
+[9.070s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/obstacle_detector/obstacle_detector_s__rosidl_typesupport_introspection_c.so[0m
+[9.078s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/obstacle_detector/obstacle_detector_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.108s] [ 94%] Built target obstacle_detector_s__rosidl_typesupport_c
+[9.108s] [ 94%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[9.118s] [ 94%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[11.152s] In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp:26[m[K,
+[11.152s]                  from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/obstacle_extractor.cpp:5[m[K:
+[11.152s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:[m[K In member function ‘[01m[Kobstacle_detector::Point obstacle_detector::Segment::[01;32m[KtrueProjection[m[K(const obstacle_detector::Point&) const[m[K’:
+[11.152s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:78:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[11.152s]    78 |     Point [01;35m[Kc[m[K = p - last_point;
+[11.152s]       |           [01;35m[K^[m[K
+[26.520s] [ 96%] [32m[1mLinking CXX shared library libobstacle_extractor.so[0m
+[27.390s] [ 96%] Built target obstacle_extractor
+[27.415s] [ 98%] [32mBuilding CXX object CMakeFiles/obstacle_extractor_node.dir/src/nodes/obstacle_extractor_node.cpp.o[0m
+[30.161s] In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp:26[m[K,
+[30.161s]                  from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/nodes/obstacle_extractor_node.cpp:7[m[K:
+[30.161s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:[m[K In member function ‘[01m[Kobstacle_detector::Point obstacle_detector::Segment::[01;32m[KtrueProjection[m[K(const obstacle_detector::Point&) const[m[K’:
+[30.161s] [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:78:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[30.161s]    78 |     Point [01;35m[Kc[m[K = p - last_point;
+[30.161s]       |           [01;35m[K^[m[K
+[31.244s] [100%] [32m[1mLinking CXX executable obstacle_extractor_node[0m
+[31.832s] /usr/bin/ld: libobstacle_extractor.so: undefined reference to `obstacle_detector::ObstacleExtractor::checkSegmentsProximity(obstacle_detector::Segment const&, obstacle_detector::Segment const&)'
+[31.833s] /usr/bin/ld: libobstacle_extractor.so: undefined reference to `obstacle_detector::ObstacleExtractor::detectCircles()'
+[31.834s] /usr/bin/ld: libobstacle_extractor.so: undefined reference to `obstacle_detector::ObstacleExtractor::checkSegmentsCollinearity(obstacle_detector::Segment const&, obstacle_detector::Segment const&, obstacle_detector::Segment const&)'
+[31.837s] /usr/bin/ld: libobstacle_extractor.so: undefined reference to `obstacle_detector::ObstacleExtractor::mergeCircles()'
+[31.845s] collect2: error: ld returned 1 exit status
+[31.847s] gmake[2]: *** [CMakeFiles/obstacle_extractor_node.dir/build.make:239: obstacle_extractor_node] Error 1
+[31.847s] gmake[1]: *** [CMakeFiles/Makefile2:656: CMakeFiles/obstacle_extractor_node.dir/all] Error 2
+[31.847s] gmake: *** [Makefile:146: all] Error 2
+[31.851s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8

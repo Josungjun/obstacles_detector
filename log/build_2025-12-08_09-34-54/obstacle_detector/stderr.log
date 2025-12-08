@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/obstacle_extractor.dir/build.make:76: CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:632: CMakeFiles/obstacle_extractor.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

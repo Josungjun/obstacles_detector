@@ -1,0 +1,1 @@
+/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector/rosidl_generator_cpp/obstacle_detector/msg/detail/segment_obstacle__struct.hpp

@@ -1,0 +1,9 @@
+[0.013s] Invoking command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8
+[0.039s] [31mCMake Error at CMakeLists.txt:131:
+[0.039s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.039s]   "-------------------------------".
+[0.039s] 
+[0.039s] [0m
+[0.039s] -- Configuring incomplete, errors occurred!
+[0.041s] gmake: *** [Makefile:1437: cmake_check_build_system] Error 1
+[0.043s] Invoked command in '/home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector -- -j8 -l8

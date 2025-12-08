@@ -1,0 +1,58 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/hello-sungjun/ros2_ws/src/obstacle_detector/build/obstacle_detector
+[  1%] Built target obstacle_detector__rosidl_generator_type_description
+[  3%] [32mBuilding CXX object CMakeFiles/obstacle_visualizer.dir/src/obstacle_visualizer.cpp.o[0m
+[  3%] Built target ament_cmake_python_symlink_obstacle_detector
+[  4%] Built target obstacle_detector__cpp
+[ 22%] Built target obstacle_detector__rosidl_generator_c
+[ 30%] Built target obstacle_detector__rosidl_typesupport_c
+[ 38%] Built target obstacle_detector__rosidl_typesupport_introspection_c
+[ 46%] Built target obstacle_detector__rosidl_typesupport_cpp
+[ 54%] Built target obstacle_detector__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target obstacle_detector__rosidl_typesupport_fastrtps_c
+[ 70%] Built target obstacle_detector__rosidl_typesupport_introspection_cpp
+[ 70%] Built target obstacle_detector
+[ 72%] Built target obstacle_detector__py
+[ 74%] [32mBuilding CXX object CMakeFiles/obstacle_extractor.dir/src/obstacle_extractor.cpp.o[0m
+[ 80%] Built target obstacle_detector__rosidl_generator_py
+[ 87%] Built target obstacle_detector_s__rosidl_typesupport_fastrtps_c
+[ 87%] Built target obstacle_detector_s__rosidl_typesupport_introspection_c
+[ 90%] Built target obstacle_detector_s__rosidl_typesupport_c
+running egg_info
+writing obstacle_detector.egg-info/PKG-INFO
+writing dependency_links to obstacle_detector.egg-info/dependency_links.txt
+writing top-level names to obstacle_detector.egg-info/top_level.txt
+reading manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+writing manifest file 'obstacle_detector.egg-info/SOURCES.txt'
+[ 90%] Built target ament_cmake_python_build_obstacle_detector_egg
+[ 91%] [32m[1mLinking CXX shared library libobstacle_extractor.so[0m
+[ 91%] Built target obstacle_extractor

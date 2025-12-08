@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:131:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "-------------------------------".
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:1437: cmake_check_build_system] Error 1

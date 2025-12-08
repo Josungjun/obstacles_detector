@@ -1,0 +1,15 @@
+In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/obstacle_visualizer.cpp:1[m[K:
+[01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_visualizer.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kobstacle_detector/msg/obstacles.hpp: No such file or directory
+    6 | #include [01;31m[K"obstacle_detector/msg/obstacles.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/obstacle_visualizer.dir/build.make:76: CMakeFiles/obstacle_visualizer.dir/src/obstacle_visualizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:686: CMakeFiles/obstacle_visualizer.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/obstacle_extractor.hpp:28[m[K,
+                 from [01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/src/obstacle_extractor.cpp:5[m[K:
+[01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:[m[K In member function ‘[01m[Kobstacle_detector::Point obstacle_detector::Segment::[01;32m[KtrueProjection[m[K(const obstacle_detector::Point&) const[m[K’:
+[01m[K/home/hello-sungjun/ros2_ws/src/obstacle_detector/include/obstacle_detector/utilities/segment.h:78:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   78 |     Point [01;35m[Kc[m[K = p - last_point;
+      |           [01;35m[K^[m[K
+gmake: *** [Makefile:146: all] Error 2
