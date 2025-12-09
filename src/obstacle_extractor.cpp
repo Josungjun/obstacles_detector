@@ -252,14 +252,45 @@ void ObstacleExtractor::scanCallback(const sensor_msgs::msg::LaserScan::SharedPt
   base_frame_id_ = scan_msg->header.frame_id;
   stamp_ = scan_msg->header.stamp;
 
+  geometry_msgs::msg::TransformStamped transform_stamped;
+  bool transform_valid = false;
+  if (p_use_front_half_only_) {
+    try {
+      transform_stamped = tf_buffer_->lookupTransform(
+        "base_link", base_frame_id_, 
+        tf2::TimePointZero); 
+      transform_valid = true;
+    }
+    catch (tf2::TransformException& ex) {
+    }
+  }
+
   double phi = scan_msg->angle_min;
 
   for (const float r : scan_msg->ranges) {
     if (r >= scan_msg->range_min && r <= scan_msg->range_max) {
-      //for use_half_only
       bool use_point = true;
-      if (p_use_front_half_only_ && cos(phi) < 0.0)
-        use_point = false;
+      
+      if (p_use_front_half_only_) {
+        if (transform_valid) {
+            double lx = r * cos(phi);
+            double ly = r * sin(phi);
+
+            geometry_msgs::msg::PointStamped ps_in, ps_out;
+            ps_in.point.x = lx;
+            ps_in.point.y = ly;
+            ps_in.point.z = 0.0;
+            
+            tf2::doTransform(ps_in, ps_out, transform_stamped);
+
+            if (ps_out.point.x < 0.0) 
+                use_point = false;
+        }
+        else {
+            if (cos(phi) < 0.0)
+                use_point = false;
+        }
+      }
 
       if (use_point)
         input_points_.push_back(Point::fromPoolarCoords(r, phi)); 
